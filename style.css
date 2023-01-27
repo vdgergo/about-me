@@ -1,0 +1,39 @@
+/* színezés */
+
+html{
+    background-color: rgba(241, 154, 72, 0.623);
+}
+
+body{
+    background-color: rgba(72, 216, 241, 0.623);
+}
+
+.profile-card{
+    background-color: rgb(176, 129, 93);
+}
+.head{
+    background-color: rgb(176, 93, 93);
+}
+.info-card{
+    background-color: rgb(105, 93, 176);
+}
+.content{
+    background-color: rgb(96, 238, 115);
+}
+
+/* méret és pozíció beállítása */
+img{
+    width: 200px;
+    height: auto;
+}
+.profile-card{
+    width: 500px;
+    max-width: calc(100vw - 10px)
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+
