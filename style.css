@@ -23,8 +23,9 @@ body{
 
 /* méret és pozíció beállítása */
 img{
-    width: 200px;
+    width: 120px;
     height: auto;
+    border-radius: 3%;
 }
 .profile-card{
     width: 500px;
@@ -37,3 +38,30 @@ body{
     height: 100vh;
 }   
 
+.head{
+    text-align: justify;
+  }
+
+.content, .links{
+    text-align: center;
+  }
+
+  /* formázás */
+
+  ul{
+    list-style-type: none;
+    
+  }
+  li{
+    display: inline;
+}
+.profile-image,.info-card{
+    float:left;
+}
+.content{
+    clear:left;
+}
+body {
+    background: url("assets/pexels-joão-jesus-925743_cropped2.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
